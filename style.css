@@ -1,0 +1,69 @@
+h1 {
+    color: #67d35a;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    border: solid;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+body{
+    background-color:rgb(8, 8, 8);
+}
+.header{
+    background-color:rgba(68, 21, 112, 0.541);
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    color: rgb(238, 132, 12);
+    font-family: Comic Sans MS;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p, h2{
+    text-align: center;
+}
+a:link{
+    color: #fff;
+}
+a:visited{
+    color: #fff;
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a{
+margin-left: 20px;
+}
+.grid img {
+    border: solid;
+    border-color: lawngreen;
+    border-width: 6px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    font-size: 50px;
+    color: rgba(202, 216, 13, 0.959);
+    font-family: Comic Sans MS;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+} 
+.item:hover img{
+    opacity: 0.2;
+}
